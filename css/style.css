@@ -6,21 +6,22 @@
     padding: 8px;
     position: absolute;
     top: -50px;
-    -webkit-transition: top 2s ease-out;
-    transition: top 4s ease-out;
+    -webkit-transition: top 1s ease-out;
+    transition: top 3s ease-out;
     z-index: 1;
  }
  
  a.skip:focus{
     top:20px;
-    color: #a12552;
+    color: orange;
     text-decoration-style: solid;
  }
   
  .skip:visited{
-    color: #2d0d5e;
+    color: navy;
  }
 
+/* styling footer*/
 footer{
     background-color: lightcyan;
     padding: 10px;
@@ -31,7 +32,7 @@ footer{
     font-weight: bold;
     color: #01274D;
 }
-
+/* styling navigation bar*/
 nav li{
     box-sizing: border-box;
     float: left;
@@ -47,7 +48,7 @@ nav li{
 
 nav li a{
     color: #01274D;
-    font-family: 'Montserrat';
+    font-family: sans-serif;
     font-weight: bold;
 }
 
@@ -73,6 +74,7 @@ body{
     text-align: center;
 }
 
+/* Styling the Home */
 .gridhome{
     display: grid;
     grid-template-columns: 1fr;
@@ -82,7 +84,7 @@ body{
 .intro{
     grid-row-start: 1;
     margin: 20px;
-    padding: 25px;
+    padding: 20px;
     border: #01274D solid 5px;
     border-radius: 10px;
     background-color: #fff2f1;
@@ -91,13 +93,13 @@ body{
     font-weight: bold;
     line-height: 1.5;
     font-size: 25px;
-    box-shadow: 10px 10px 7px #01274D;
+    box-shadow: 10px 10px 5px #01274D;
 }
 
 .aboutme{
     grid-row-start: 2;
     margin: 20px;
-    padding: 25px;
+    padding: 20px;
     border: #01274D solid 5px;
     border-radius: 10px;
     background-color: #fff2f1;
@@ -106,7 +108,7 @@ body{
     font-weight: bold;
     line-height: 1.5;
     font-size: 25px;
-    box-shadow: 10px 10px 7px #01274D;
+    box-shadow: 10px 10px 5px #01274D;
 }
 .intro h2{
     color: #01274D;
@@ -123,6 +125,7 @@ body{
     font-size: 50px;
 }
 
+/* Styling the About Me */
 .caption img{
     border: #fff2f1 solid 25px; 
 }
@@ -152,6 +155,8 @@ body{
     margin-left: 25px;
     margin-right: 25px;
 }
+
+/* Styling the Skills and Passions */
 
 .conatiner{
     display: grid;
