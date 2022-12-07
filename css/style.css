@@ -1,0 +1,308 @@
+
+ /*skip to content when tab*/
+ a.skip{
+    background: white;
+    left: 10;
+    padding: 8px;
+    position: absolute;
+    top: -50px;
+    -webkit-transition: top 2s ease-out;
+    transition: top 4s ease-out;
+    z-index: 1;
+ }
+ 
+ a.skip:focus{
+    top:20px;
+    color: #a12552;
+    text-decoration-style: solid;
+ }
+  
+ .skip:visited{
+    color: #2d0d5e;
+ }
+
+footer{
+    background-color: lightcyan;
+    padding: 10px;
+    border: #01274D solid 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Serif';
+    font-weight: bold;
+    color: #01274D;
+}
+
+nav li{
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    background-color: lightcyan;
+    display: inline;
+    font-size: 20px;
+    text-align: center; 
+    padding: 10px;
+    border: #01274D solid 3px;
+    
+}
+
+nav li a{
+    color: #01274D;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.active{
+    text-transform: uppercase;
+    background-color: #D9CDE6;    
+}
+
+nav a:hover{
+    text-decoration-style: dotted;
+}
+
+/* Styling the Body */
+body{
+    background-color: lightgray;
+}
+
+/* Styling the Header */
+.Header{
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #01274D;
+    text-align: center;
+}
+
+.gridhome{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.intro{
+    grid-row-start: 1;
+    margin: 20px;
+    padding: 25px;
+    border: #01274D solid 5px;
+    border-radius: 10px;
+    background-color: #fff2f1;
+    color: #01274D;
+    font: Arial;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 25px;
+    box-shadow: 10px 10px 7px #01274D;
+}
+
+.aboutme{
+    grid-row-start: 2;
+    margin: 20px;
+    padding: 25px;
+    border: #01274D solid 5px;
+    border-radius: 10px;
+    background-color: #fff2f1;
+    color: #01274D;
+    font: Arial;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 25px;
+    box-shadow: 10px 10px 7px #01274D;
+}
+.intro h2{
+    color: #01274D;
+    font: Serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 50px;
+}
+.aboutme h3{
+    color: #01274D;
+    font: Serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 50px;
+}
+
+.caption img{
+    border: #fff2f1 solid 25px; 
+}
+
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: scroll;
+}
+.caption{
+    background-color: #fff2f1;
+    margin: 30px;
+    width: 550px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;  
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 17px;
+    color: #01274D;
+}
+.figcaption{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.conatiner{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 1fr 300px;
+    gap: 15px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+  }
+
+.python{
+    display: flex;
+    grid-row: 1 / 1;
+    grid-column: 1 / 2;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.math{
+    display: flex;
+    grid-row: 2 / 2;
+    grid-column: 1 / 2;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.academicskills{
+    color: #01274D;
+    border: 5px solid #01274D;
+    background-color: white;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+    grid-column: 1 / 2;
+    grid-row: 3 / 3;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.tennis1{
+    display: flex;
+    grid-row: 4 / 4;
+    grid-column: 1 / 2;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+ }
+
+.tennis2{
+    display: flex;
+    grid-row: 5 / 5;
+    grid-column: 1 / 2;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sports{
+    color: #01274D;
+    border: 5px solid #01274D;
+    background-color: white;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+    grid-column: 1 / 2;
+    grid-row: 6 / 6;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.lax{
+    display: flex;
+    grid-row: 7 / 7;
+    grid-column: 1 / 2;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ping{
+    display: flex;
+    grid-row: 8 / 8;
+    grid-column: 1 / 2;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies{
+    color: #01274D;
+    border: 5px solid #01274D;
+    background-color: white;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+    grid-column: 1 / 2;
+    grid-row: 9 / 9;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.hsfriends{
+    display: flex;
+    grid-row: 10 / 10;
+    grid-column: 1 / 2;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.umichfriends{
+    display: flex;
+    grid-row: 11 / 11;
+    grid-column: 1 / 2;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.umichfriends2{
+    display: flex;
+    grid-row: 12 / 12;
+    grid-column: 1 / 2;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.weekends{
+    color: #01274D;
+    border: 5px solid #01274D;
+    background-color: white;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+    grid-column: 1 / 2;
+    grid-row: 13 / 13;
+    justify-content: center;
+    overflow: scroll;
+}
+
+@media screen and (min-width: 780px) {
+
+}
+
+@media screen and (min-width: 1000px) {
+
+}
+
+
+
